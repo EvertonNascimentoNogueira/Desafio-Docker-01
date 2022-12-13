@@ -24,8 +24,6 @@ services:
        ME_CONFIG_MONGODB_ADMINPASSWORD: MongoDB2022
        ME_CONFIG_MONGODB_PORT: 27017
        ME_CONFIG_MONGODB_SERVER: mongo
- #     ME_CONFIG_BASICAUTH_USERNAME: root
- #     ME_CONFIG_BASICAUTH_PASSWORD: MongoDB2019!
     depends_on:
       - mongo
     ports:
